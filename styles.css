@@ -1615,6 +1615,64 @@ h2 {
 /* ==========================================================================
    Compatibility & Polish for Subpages (image_sources/*.html & class_pages)
    ========================================================================== */
+.attribution-table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0 2.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.attribution-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.attribution-table th,
+.attribution-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.attribution-table thead th {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+.attribution-table th:first-child {
+  width: 32%;
+}
+
+.attribution-table tbody th {
+  color: var(--text-title);
+  font-weight: 600;
+}
+
+.attribution-table tbody tr:nth-child(even) {
+  background: var(--bg-surface-alt);
+}
+
+.attribution-table tbody tr:last-child > * {
+  border-bottom: none;
+}
+
+.attribution-table a {
+  color: var(--primary-light);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.attribution-table a:hover {
+  color: var(--accent);
+}
+
 .sample-images {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));

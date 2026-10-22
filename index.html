@@ -138,7 +138,7 @@
             </svg>
           </div>
           <div class="metric-value">16</div>
-          <div class="metric-label">Balanced Core Classes</div>
+          <div class="metric-label">Balanced Classes</div>
         </div>
 
         <div class="metric-card">
@@ -208,7 +208,7 @@
                 </div>
                 <div class="feature-text">
                   <h4>Balanced Class Distribution</h4>
-                  <p>100 images per core class ensuring unbiased classification and retrieval benchmarking.</p>
+                  <p>100 images per class ensuring unbiased classification and retrieval benchmarking.</p>
                 </div>
               </li>
               <li class="feature-item">
@@ -245,7 +245,7 @@
           <span class="section-tag">Dataset Taxonomy</span>
           <h2 class="section-title">Interactive Classes Explorer</h2>
           <p class="section-desc">
-            Explore the 16 core categories of the MORART-1K benchmark across architecture, leathercraft, pottery, weaving, and gastronomy. Click any class to preview high-resolution samples and source attributions.
+            Explore the 16 categories of the MORART-1K benchmark across architecture, leathercraft, pottery, weaving, and gastronomy. Click any class to preview high-resolution samples and source attributions.
           </p>
         </div>
 
@@ -268,15 +268,6 @@
               />
               <button id="search-clear-btn" class="search-clear" aria-label="Clear search">✕</button>
             </div>
-
-            <div class="scope-toggle-wrap">
-              <button id="scope-toggle-btn" class="scope-btn" aria-pressed="false">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-                </svg>
-                <span>Toggle 16 Core / 26 All Classes</span>
-              </button>
-            </div>
           </div>
 
           <!-- Category Filter Pills -->
@@ -286,12 +277,11 @@
             <button class="filter-pill" data-filter="crafts">🏺 Handicrafts & Decor</button>
             <button class="filter-pill" data-filter="attire">👘 Traditional Attire</button>
             <button class="filter-pill" data-filter="food">🍲 Culinary Heritage</button>
-            <button class="filter-pill" data-filter="culture">🐎 Cultural Arts</button>
           </div>
         </div>
 
         <div class="gallery-status-bar">
-          <span id="scope-label">Showing <strong>16 Core Classes</strong> (MORART-1K Benchmark)</span>
+          <span id="scope-label">Showing <strong>16 Classes</strong> (MORART-1K Benchmark)</span>
           <span id="displayed-count">16 classes</span>
         </div>
 
@@ -300,22 +290,22 @@
           <!-- Fallback noscript content -->
           <noscript>
             <div class="sample-images">
-              <a href="class_pages/01.Koutoubia.html"><img src="images/01. Koutoubia_1.jpg" alt="Koutoubia 1">01. Koutoubia</a>
-              <a href="class_pages/02.Hassan2.html"><img src="images/02. Hassan 2_3.jpg" alt="Hassan 2">02. Hassan II</a>
-              <a href="class_pages/03.Hassantower.html"><img src="images/03. Hassan Tower_5.jpg" alt="Hassan Tower">03. Hassan Tower</a>
-              <a href="class_pages/04.Aitbenhaddou.html"><img src="images/04. Ait Ben Haddou_34.jpg" alt="Ait Ben Haddou">04. Ait Ben Haddou</a>
-              <a href="class_pages/05.Berrad.html"><img src="images/05. Berrad_245.jpg" alt="Berrad">05. Berrad</a>
-              <a href="class_pages/09.BabouchesoussF.html"><img src="images/09. Babouche Souss F_52.jpg" alt="Babouche Souss F">09. Babouche Souss</a>
-              <a href="class_pages/11.Couscous.html"><img src="images/11. Couscous_68.jpg" alt="Couscous">11. Couscous</a>
-              <a href="class_pages/12.Tajinefood.html"><img src="images/12. Tajine Food_95.jpg" alt="Tajine Food">12. Tajine Food</a>
-              <a href="class_pages/13.Ifnouzen.html"><img src="images/13. Ifnouzen_48.jpg" alt="Ifnouzen">13. Ifnouzen</a>
-              <a href="class_pages/19.Tajinepot.html"><img src="images/19. Tajine Pot_69.jpg" alt="Tajine Pot">19. Tajine Pot</a>
-              <a href="class_pages/21.Zerbiyya1.html"><img src="images/21. Zerbiyya 1_29.jpg" alt="Zerbiyya">21. Zerbiyya</a>
-              <a href="class_pages/14.Djellaba.html"><img src="images/14. Djellaba_59.jpg" alt="Djellaba">14. Djellaba</a>
-              <a href="class_pages/15.Fouqiyya.html"><img src="images/15. Fouqiyya_77.jpg" alt="Fouqiyya">15. Fouqiyya</a>
-              <a href="class_pages/16.Moorisharc.html"><img src="images/16. Moorish Arc_18.jpg" alt="Moorish Arc">16. Moorish Arc</a>
-              <a href="class_pages/17.Kasbahdoor.html"><img src="images/17. Kasbah Door_112.jpg" alt="Kasbah Door">17. Kasbah Door</a>
-              <a href="class_pages/18.Fountain.html"><img src="images/18. Fountain_35.jpg" alt="Fountain">18. Fountain</a>
+              <a href="class_pages/04.Aitbenhaddou.html"><img src="images/04. Ait Ben Haddou_34.jpg" alt="Ait Ben Haddou">1. Ait Ben Haddou</a>
+              <a href="class_pages/09.BabouchesoussF.html"><img src="images/09. Babouche Souss F_52.jpg" alt="Babouche Souss F">2. Babouche Souss F</a>
+              <a href="class_pages/05.Berrad.html"><img src="images/05. Berrad_245.jpg" alt="Berrad">3. Berrad</a>
+              <a href="class_pages/11.Couscous.html"><img src="images/11. Couscous_68.jpg" alt="Couscous">4. Couscous</a>
+              <a href="class_pages/14.Djellaba.html"><img src="images/14. Djellaba_59.jpg" alt="Djellaba">5. Djellaba</a>
+              <a href="class_pages/18.Fountain.html"><img src="images/18. Fountain_35.jpg" alt="Fountain">6. Fountain</a>
+              <a href="class_pages/15.Fouqiyya.html"><img src="images/15. Fouqiyya_77.jpg" alt="Fouqiyya">7. Fouqiyya</a>
+              <a href="class_pages/02.Hassan2.html"><img src="images/02. Hassan 2_3.jpg" alt="Hassan 2">8. Hassan 2</a>
+              <a href="class_pages/03.Hassantower.html"><img src="images/03. Hassan Tower_5.jpg" alt="Hassan Tower">9. Hassan Tower</a>
+              <a href="class_pages/13.Ifnouzen.html"><img src="images/13. Ifnouzen_48.jpg" alt="Ifnouzen">10. Ifnouzen</a>
+              <a href="class_pages/17.Kasbahdoor.html"><img src="images/17. Kasbah Door_112.jpg" alt="Kasbah Door">11. Kasbah Door</a>
+              <a href="class_pages/01.Koutoubia.html"><img src="images/01. Koutoubia_1.jpg" alt="Koutoubia">12. Koutoubia</a>
+              <a href="class_pages/16.Moorisharc.html"><img src="images/16. Moorish Arc_18.jpg" alt="Moorish Arc">13. Moorish Arc</a>
+              <a href="class_pages/12.Tajinefood.html"><img src="images/12. Tajine Food_95.jpg" alt="Tajine Food">14. Tajine Food</a>
+              <a href="class_pages/19.Tajinepot.html"><img src="images/19. Tajine Pot_69.jpg" alt="Tajine Pot">15. Tajine Pot</a>
+              <a href="class_pages/21.Zerbiyya1.html"><img src="images/21. Zerbiyya 1_29.jpg" alt="Zerbiyya">16. Zerbiyya</a>
             </div>
           </noscript>
         </div>
@@ -341,7 +331,7 @@
                 </tr>
                 <tr>
                   <td>Primary Classes</td>
-                  <td><strong>16 Classes</strong> (Extended collection: 26)</td>
+                  <td><strong>16 Classes</strong></td>
                 </tr>
                 <tr>
                   <td>Image Formats</td>
@@ -492,14 +482,23 @@ print(f"Loaded {len(dataset)} images across {len(dataset.classes)} Moroccan clas
       <!-- Image Source & Attribution Section -->
       <section id="sources" class="sources-section">
         <div class="section-header">
-          <span class="section-tag">Third-Party Attribution</span>
+          <span class="section-tag">Image Attribution</span>
           <h2 class="section-title">Image Sources & Attributions</h2>
           <p class="section-desc">
-            To ensure comprehensive real-world diversity, third-party images have been ethically curated from reputable photographic repositories under creative commons and open licensing protocols:
+            Images are drawn from the photographic repositories and artisan sources below. Zerbiyya images come from the dataset author's personal photography collection.
           </p>
         </div>
 
         <div class="sources-grid">
+          <a href="class_pages/21.Zerbiyya1.html" class="source-card">
+            <div class="source-card-top">
+              <div class="source-icon">Hz</div>
+              <span class="source-arrow">View Source →</span>
+            </div>
+            <div class="source-name">Author's Personal Photography</div>
+            <p class="source-desc">The Zerbiyya class contains Moroccan carpet images photographed by the dataset author.</p>
+          </a>
+
           <a href="image_sources/pexels.html" class="source-card">
             <div class="source-card-top">
               <div class="source-icon pexels">Px</div>
